@@ -1,0 +1,93 @@
+List of axises:
+0: Left analog stick X
+1: Left analog stick Y
+2: Right analog stick X
+3: Right analog stick Y
+4: ?
+5: ?
+6: ?
+7: ?
+8: Up
+9: Right
+10: Down
+11: Left
+12: L2
+13: R2
+14: L1
+15: R1
+16: Triangle
+17: Circle
+18: Cross
+19: Square
+20-27: ?
+
+List of buttons:
+0:  Select
+1:  L3
+2:  R3
+3:  Start
+4:  Up
+5:  Right
+6:  Down
+7:  Left
+8:  L2
+9:  R2
+10: L1
+11: R1
+12: Triangle
+13: Circle
+14: Cross
+15: Square
+16: PS
+
+Raw bluetooth data bytes:
+0:  a1 ?
+1:  01 ?
+2:  00 ?
+3:  bits: 0:sel 1:L3  2:R3  3:St  4:up  5:ri  6:do  7:le
+4:  bits: 0:L2  1:R2  2:L1  3:R1  4:Tri 5:Cir 6:Cro 7:Squ
+5:  bits: 0:PS
+6:  00 ?
+7:  axis: left analog stick X (00:left, FF:right)
+8:  axis: left analog stick Y (00:up, FF:down)
+9:  axis: right stick X
+10: axis: right stick Y
+11: 00 ?
+12: 00 ?
+13: 00 ?
+14: 00 ?
+15: axis: up key (00: not pressed, FF: fully pressed)
+16: axis: right right
+17: axis: down key
+18: axis: left key
+19: axis: L2
+20: axis: R2
+21: axis: L1
+22: axis: R1
+23: axis: Triangle
+24: axis: Circle
+25: axis: Cross
+26: axis: Square
+27: 00 ?
+28: 00 ?
+29: 00 ?
+30: 03 ?
+31: 02 ?
+32: 14 ?
+33: ff ?
+34: sixaxis: c6->cf ?
+35: 00 ?
+36: 00 ?
+37: 23 ?
+38: 08 ?
+39: 77 ?
+40: 01 ?
+41: 81 ?
+42: sixaxis
+43: sixaxis
+44: sixaxis
+45: sixaxis
+46: sixaxis
+47: sixaxis
+48: sixaxis
+49: sixaxis
